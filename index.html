@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homework Partner</title>
+    <style>
+      body{
+        margin:0;
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial;
+        background: #fff3f8;
+        color:#2b2b2b;
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:20px;
+      }
+      .card{
+        width:min(900px, 100%);
+        background: rgba(255,255,255,.85);
+        border:1px solid rgba(0,0,0,.08);
+        border-radius:18px;
+        padding:18px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.08);
+      }
+      .title{
+        font-weight:950;
+        font-size:18px;
+        margin:0 0 10px;
+      }
+      .hint{
+        margin:0 0 12px;
+        color:#6b6b6b;
+        font-weight:700;
+        font-size:13px;
+        line-height:1.5;
+      }
+      .link{
+        display:inline-block;
+        margin-top:10px;
+        padding:10px 12px;
+        border-radius:12px;
+        text-decoration:none;
+        font-weight:900;
+        background: linear-gradient(180deg, #ff6ea8, #7c5cff);
+        color:white;
+      }
+      iframe{
+        width:100%;
+        height: calc(100vh - 220px);
+        border:0;
+        border-radius:14px;
+        background:white;
+      }
+      @media (max-width: 520px){
+        iframe{ height: 50vh; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="title">Homework Partner</h1>
+      <p class="hint">如果你看到空白，请点击下方链接打开日历版作业管理。</p>
+      <a class="link" href="./homework-manager-calendar.html">打开日历版</a>
+      <div style="height:12px"></div>
+      <iframe title="Homework Partner" src="./homework-manager-calendar.html"></iframe>
+    </div>
+  </body>
+</html>
+
