@@ -8,3 +8,6 @@
 
 ## 使用
 直接在浏览器打开：`homework-manager-calendar.html`
+
+如果你已经启用了 GitHub Pages：根地址会打开 `index.html`（内嵌日历版），例如：
+`https://greatyanx.github.io/homework-partner/`
